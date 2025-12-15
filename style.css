@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;  
+}
+li {
+    display: inline-block;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #FAFAFA;
+    letter-spacing: 2px;
+}
+.container {
+    position: relative;
+    padding: 0 197px;
+}
+svg {
+    margin-bottom: 15px;
+    width: 50px;
+    height: 50px;
+    fill: #0D5C63;
+}
+
+
+/*********   Header   ************/
+header {
+    object-fit:contain;
+    background: url(img/cover.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 1000px;
+    max-height: 100%;
+    image-rendering:optimizeQuality;
+}
+.header_container {
+    margin-top: 80px;
+    max-width: 50%;
+}
+.header_logo {
+    font-weight: 800;
+    color: #252B42;
+    font-size: 58px;
+
+    line-height: 1.38em;
+    text-align: left;
+}
+.header_text {
+    font-weight: 500;
+    color: #737373;
+    font-size: 20px;
+    line-height: 1.5em;
+    letter-spacing: 2px;
+    margin: 35px 0;
+}
+.header_btns {
+    border: #0D5C63 solid 2px;
+    border-radius: 50px;
+    padding: 10px 36px;
+    background-color: inherit;
+    color: #0D5C63;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 2em;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.header_btns:hover {
+    background-color: #FF7B47;
+    border-color: inherit;
+    color: #FFFFFF;
+}
+.header_btn1 {
+    margin-right: 10px;
+}
+/*********   \Header\   ************/
+
+
+/*********   Navbar   ************/
+.navbar {
+    margin: 0 181px;
+    position: relative;
+    padding: 40px 0;
+}
+.nav-logo {
+    font-weight: 700;
+    float: left;
+    margin-right: 13%;
+    color: #252B42;
+}
+.nav-logo_zero{
+    clear: both;
+}
+.nav-navbar{
+    padding: 8px 0;
+    font-size: 0;
+}
+.nav-navbar_link{
+    margin-right: 21px;
+}
+.nav-navbar_link:last-child {
+    margin-right: 0;
+}
+.nav-link{
+font-size: 14px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #737373;
+}
+.nav-link:hover{
+    transition: .5s;
+    font-size: 15px;
+    color: #FF7B47;
+}
+/*********  \Navbar\   ************/
+
+/*********  Cards   ************/
+.cards {
+    position: absolute;
+    bottom:-30%;
+}
+.cards-item {
+    float: left;
+    padding: 40px;
+    max-height: 242px;
+    margin-right: 1em;
+    width: 25%;
+    display: block;
+    background-color: #FFFFFF;
+    transition: 1s;
+
+}
+.cards-item:last-child {
+    margin-right: 0;
+}
+.cards-item h3 {
+    color: #252B42;
+    transition: 1s;
+    font-weight:700;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.cards-item p {
+    color: #737373;
+    transition: 1s;
+    font-weight: 500;
+    font-size: 14px;
+}
+.cards-img {
+   color: blue;
+   fill:#0D5C63;
+}
+
+.cards-item svg{
+    transition: 1s;
+    
+}
+.cards-item:hover svg{
+    fill: #FAFAFA;
+}
+.cards-item:hover p{
+    color: #FAFAFA;
+}
+.cards-item:hover h3{
+    color: #FAFAFA;
+}
+.cards-item:hover{
+    background-color: #0D5C63;
+}
+/*********  \Cards\   ************/
+
+/*********  betterExp   ************/
+.betterExp{
+    text-align: center;
+}
+.logo_title{
+    padding: 40px 0 0;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #252B42;
+}
+.logo_text{
+    display: inline-block;
+    width: 57%;
+    font-weight: 500;
+    font-size: 14px;
+    color: #737373;
+    padding-bottom: 50px;
+}
+
+.Exp-item{
+    box-shadow: 1px 1px 8px  1px #737373;
+    text-align: center;
+    float: left;
+    padding: 30px 0;
+    max-height: 242px;
+    margin-right: 2.8em;
+    width: 21%;
+    display: block;
+    background-color: #FFFFFF;
+}
+.Exp-item-zero{
+    clear: both;
+}
+.Exp-item:last-child{
+    margin-right: 0;
+}
+.Exp-item_velue{
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #252B42;
+}
+.Exp-item_text{
+    font-weight: 500;
+    font-size: 14px;
+    color: #737373;
+}
+
+/*********  \betterExp\   ************/
+
+/*********  Practice advice   ************/
+.practice-advice{
+    text-align: center;
+}
+
+
+
+/*********  \Practice advice\   ************/
